@@ -1,78 +1,107 @@
 .encabezado {
-  display:flex; 
+  display: flex;
   flex-direction: column;
-  align items: space-around;
-  justify-content:space-between;
-  flex-wrap:nowrap;
+  align-items: space-around;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   background-color: gray;
-  width:100%;
-  height:40%;
+  width: 100%;
+  height: 40%;
   border-style: solid;
-  
 }
 .logo {
-
   background-color: blue;
   border: dashed;
   border-color: black;
-  width:100px;
-  height:50px;
-  
+  width: 100px;
+  height: 50px;
 }
 
 .menu1 {
-  align-self:flex-end;
+  align-self: flex-end;
   background-color: green;
   border: bold;
   border-color: black;
-  width:100px;
-  height:25px;
+  width: 100px;
+  height: 25px;
 }
 .menu2 {
   background-color: red;
   border: bold;
   border-color: black;
   border-style: solid;
-  width:250px;
-  height:50px;
-  
+  width: 250px;
+  height: 50px;
 }
 
 .izquierdacentroderecha {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-st;
-  align-items:flex-end;
+  align-items: flex-end;
   background-color: pink;
-  width:100%;
-  height:40%;
+  width: 100%;
+  height: 40%;
   border-color: black;
   border: solid;
 }
 
 .izquierda {
-
-  background-color: brown;
+  background-color: rgb(163, 165, 42);
   border-color: black;
   border: solid;
-   width:40%;
-  height:100%;
+  width: 40%;
+  height: 100%;
 }
 
 .centro {
-
-
   background-color: blue;
   border-color: black;
   border: solid;
-    width:40%;
-  height:100%;
+  width: 40%;
+  height: 100%;
 }
 .derecha {
-  
   background-color: orange;
   border-color: black;
   border: solid;
-    width:40%;
-  height:100%;
+  width: 40%;
+  height: 100%;
+}
+.izquierda2derecha2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-between;
+  background-color: blueviolet;
+  border-block-color: black;
+  border-block-style: solid;
+  width: 100%;
+  height: 50%;
+}
+.derecha2 {
+  background-color: chartreuse;
+  width: 70%;
+  height: 100%;
+}
+
+.izquierda2 {
+  align-self: flex-end;
+  background-color: brown;
+  width: 30%;
+  height: 100%;
+}
+
+.pie {
+  display: flex;
+  flex-direction: column;
+  background-color: dodgerblue;
+  width: 100%;
+  height: 30%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.elemento {
+  align-self: flex-end;
+  background-color: blue;
 }
